@@ -8,17 +8,11 @@ Calculate and store baseball leaders from away and home teams using a generic Li
 
 **Details**
 - This program will calculate baseball stats based on the game play-by-play
-  - Each possible plate appearance is provided in a file named keyfile.txt
 - Start the program by prompting the user for the input filename.
-  - Each player’s plate appearance will be given in a file
   - Analyze each plate appearance to determine the result (hit, out, strikeout, etc.)
   - Record the information for each player and determine leaders
-- A ***hash table*** will be used for quick lookup of results
-  - After reading the play, a hash table will be used to determine the result (i.e. H, O, K, etc.)
-    - For example, a play of 1B (single) is a hit (H) (which as you know is also an at-bat and a plate appearance)
-  - The result is then recorded for the player
-- Another ***hash table*** is used to find and update the player stats
-
+- A ***Linked List*** will be used for storage and lookup of results
+  - After reading the play, a Linked List will be used to store the result (i.e. H, O, K, etc.)
 
 
 
