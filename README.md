@@ -1,7 +1,7 @@
 # Mario_Super_Sluggers(Generic Linked List)
-Calculate baseball leaders from away and home teams using Hash Tables
+Calculate and store baseball leaders from away and home teams using a generic Linked List
 
-**Objective:Utilize common features of a hash table in the design of an object-oriented program**
+**Objective:Implemented a Generic Linked List to store scores of baseball players**
 
 
 **Problem:** Now that the Mushroom Kingdom League has ended and crowned a new champion, it is time to determine the league leaders in several different baseball categories.  Being the only person in the Mushroom Kingdom that knows how to write a computer program, you have been asked by Princess Peach herself to write a program that will determine the league leaders.
