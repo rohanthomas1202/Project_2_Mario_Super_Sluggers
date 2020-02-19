@@ -27,6 +27,10 @@ public class Main {
         // linked list to store all player objects
         LinkList<Player> list_players = new LinkList<Player>();
 
+
+
+        pw.println("The input file is: \"" + inFile.getName() + "\"");
+
         // opening input and output files
         Scanner in = null;                       // opening user entered file
         try {
@@ -66,7 +70,7 @@ public class Main {
                     p.setsacrifice(count(record, 'S'));
 
                     // adding the player into the linked list
-                    Node<Player> node = new Node<Player>(p);
+                    Node<Player> node = new Node<>(p);
                     list_players.add(node);
 
                 } else {

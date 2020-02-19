@@ -74,7 +74,7 @@ public class LinkList<E extends Comparable<E>> {
             double curr_value = 0;
             double next_value;
             boolean print = false;
-            // go through linked list to get and set values
+            // go through linked list to get and set values,
             while (curr_head != null && counter < 3) {
                 curr_value = ((Player) curr_head.getPayload()).calculate_BA();
                 if (!print) {
